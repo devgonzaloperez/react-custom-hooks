@@ -1,7 +1,3 @@
-/*USECOUNTER2*/
-
-//El funcionamiento es igual al USECOUNTER, pero con algunas modificaciones en los nombres
-
 import { useState } from "react";
 
 export const useCounter = (initialState = 10) => {
@@ -28,3 +24,6 @@ export const useCounter = (initialState = 10) => {
     }
 
 };
+
+//Ejemplo de uso.
+//const {counter, increment, decrement, reset} = useCounter(0);

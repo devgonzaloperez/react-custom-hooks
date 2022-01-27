@@ -20,3 +20,7 @@ export const useForm = (initialState = {}) => {
     return [values, handleInputChange, reset];
 
 };
+
+//Ejemplo de uso.
+//const initialForm = {nane: "", age: 18, email: ""};
+//const [values, handleInputChange, reset] = useForm(initialForm);

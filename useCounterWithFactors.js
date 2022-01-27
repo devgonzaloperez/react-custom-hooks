@@ -24,3 +24,7 @@ export const useCounterWithFactor = (initialState = 10) => {
     }
 
 };
+
+//Ejemplo de uso.
+//const {counter, increment, decrement, reset} = useCounter(0);
+//No olvidar incorporarle los factores a decrement e increment.
